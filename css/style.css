@@ -301,3 +301,50 @@
 .sub-text p{
     color: #627382;
 }
+
+/* cta section end  */
+
+
+/* footer section start  */
+
+
+#footer{
+    background-color: #001931;
+    padding: 120px 120px 0 120px ;
+}
+
+#footer .footer-container{
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.socile-link{
+    margin-right: 100px;
+}
+
+.socile-link h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.socile-link i{
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-sub-text{
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+
+
