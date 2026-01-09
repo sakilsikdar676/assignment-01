@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shear style  */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    font-weight: 600;
+    padding: 14px 16px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #ffffff;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.section-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+
+}
+
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 40px;
+}
+
+/* nav bar start  */
+
+.logo{
+    cursor: pointer;
+}
+
+#nav-container{
+    display: flex;
+    padding: 16px 120px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+#nav-container .nav-menu ul{
+   display: flex;
+   gap: 32px;
+}
+
+#nav-container .nav-menu ul li{
+    font-weight: 400;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* nav bar end  */
+
+/* banner start  */
+
+#banner{
+    background-image: url(../images/hero-bg.png);
+    padding: 70px 120px 134px;
+}
+
+.banner-container{
+    text-align: center;
+    padding-top: 45px;
+    
+}
+
+.head-btn{
+    max-width: 170px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+   border-radius: 50px;
+    background-color: #ffffff;
+    color: #469165;
+    margin: 0 auto 16px;
+    cursor: pointer;
+}
+
+.btn3{
+    cursor: pointer;
+}
+
+.head-btn button{
+    border: none;
+    color: #469165;
+    background-color: #ffffff; 
+}
+
+.banner-text h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.banner-text .h1w{
+  color: #ffffff;
+}
+
+.banner-text .h1g{
+    color: #469165;
+}
+
+.banner-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+    color: #ffffff;
+}
+
+.banner-btn{
+    width: 465px;
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+    padding-bottom: 50px;
+}
+
+.btn2{
+    font-weight: 600;
+    padding: 12px 16px ;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    color: #ffffff;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* banner end  */
+
+
+/* cerd skill start  */
+
+#skill{
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#skill .skill-container{
+   max-width: 1360px;
+   
+}
+
+.skill-cerds{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.cerd-info img{
+    background-color: #F95555;
+    padding: 24px;
+    border-radius: 50%;
+    margin-top: 69px;
+}
+
+.cerd-info{
+    max-width: 322px;
+    text-align: center;
+    box-shadow:0 0 8px #00000013;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.cerd-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+
+.cerd-info p{
+    color: #627382;
+    max-width: 247px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    border: 1px solid red;
+}
+
+/* skill cerd section end  */
+
