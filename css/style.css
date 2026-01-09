@@ -253,3 +253,51 @@
 .checkar:last-child{
     margin-bottom: 0;
 }
+
+/* hero section end  */
+
+/* cta section start  */
+
+#cta{
+    padding: 0 120px 120px 120px;
+    border: 1px solid red;
+}
+
+.cta-container{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.section-heading3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading3 h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+
+}
+
+.section-heading3 p{
+    color: #627382;
+    margin-top: 16px;
+}
+
+
+.cta-btn{
+    text-align: center;
+    margin-top: 24px;
+    padding-bottom: 16px;
+
+}
+
+.sub-text{
+    text-align: center;
+}
+
+.sub-text p{
+    color: #627382;
+}
