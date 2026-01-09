@@ -202,3 +202,54 @@
 
 /* skill cerd section end  */
 
+/* hero section start  */
+
+
+#hero{
+    padding: 120px;
+}
+
+#hero .hero-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#hero .hero-container .hero-image{
+    max-width: 600px;
+    height: 600px;
+}
+
+.hero-text{
+    width: 700px;
+    margin: auto 0;
+    border: 1px solid red;
+}
+
+.small-text{
+    color: #469165;
+    text-transform: uppercase;
+}
+
+.section-heading2 h2{
+     font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+
+.section-heading2 .big-text{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.checkar{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.checkar:last-child{
+    margin-bottom: 0;
+}
